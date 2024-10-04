@@ -2,6 +2,6 @@ front-end/node_modules
 back-end/node_modules
 front-end/dist/
 back-end/dist/
-front-end/.env
+front-end/.env.local
 back-end/.env
 front-end/.next/
