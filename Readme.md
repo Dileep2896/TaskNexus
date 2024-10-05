@@ -67,6 +67,7 @@ The TaskNexus architecture follows a modular, microservice-inspired approach, fo
 ### Backend Architecture
 
 - **RESTful API Layer:** The backend is built using Node.js and Express, structured to provide a clean RESTful API for client-server interactions. Each route is defined for various CRUD operations related to users, tasks, teams, and project management, ensuring clear endpoints for front-end consumption.
+
 - **Database Access Layer with Prisma:** Prisma acts as the Object-Relational Mapping (ORM) layer, abstracting the database interactions while enforcing type safety and reducing the boilerplate code for database operations. All queries are type-safe and easy to manage, and Prisma's migration tools ensure smooth database versioning.
 
 - **Scalable Deployment:** The backend, hosted on AWS EC2, leverages pm2 to run and manage the Node.js server continuously, providing high availability and reliability. AWS RDS is used for data persistence, while VPC ensures a secure and isolated network environment.
@@ -74,6 +75,7 @@ The TaskNexus architecture follows a modular, microservice-inspired approach, fo
 ### Frontend Architecture
 
 - **Component-Based Structure:** The front end follows React’s component-based architecture, modularizing UI elements for easy reuse, testing, and maintenance. Each view (Board, List, Timeline, Table) is treated as a separate component, rendering dynamic content based on state.
+
 - **State Management with Redux Toolkit:** Redux is used to maintain a centralized store for all application states (tasks, projects, users). This allows efficient data flow across components and enhances state predictability, providing actions and reducers to manage various project management workflows.
 
 - **Server-Side Rendering & Code Splitting:** Utilizing Next.js capabilities for SSR to improve SEO and load times, and code splitting for efficient bundle sizes, ensuring a fast and responsive user experience.
