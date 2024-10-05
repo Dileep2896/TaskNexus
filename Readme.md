@@ -72,7 +72,7 @@ TaskNexus is a full-featured, modern project management application that provide
 
 ### User Management
 
-![User Management](./project_screenshot/users.png)
+![User Management](./project_screenshot/user.png)
 
 ### Project Timeline View
 
