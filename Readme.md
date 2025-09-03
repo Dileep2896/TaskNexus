@@ -1,7 +1,5 @@
 # TaskNexus
 
-# TaskNexus
-
 TaskNexus is a full-featured, modern project management application that provides a comprehensive and intuitive way to manage and track projects efficiently. Designed to showcase skills in building a robust full-stack application, it leverages Next.js, React, Redux, Node.js, Express.js, PostgreSQL, and AWS services to deliver an experience that focuses on functionality, flexibility, and performance.
 
 ## Live Demo
